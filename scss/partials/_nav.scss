@@ -4,7 +4,7 @@
     padding: 0;
     width: 100%;
     background: rgba(243, 243, 243, 1);
-    height: 4em;
+    height: 5em;
     z-index: 100;
     position: fixed;
     border-bottom: 1px solid #080808;
@@ -94,7 +94,7 @@
 
 @media (min-width: 900px){
     .header-container{
-        height: 4em;
+        height: 5em;
         padding: 0;
         margin: 0 auto;
     }
@@ -104,7 +104,7 @@
         position: relative;
         top: 0;
         background: none;
-        height: 4em;
+        height: 5em;
         width: 100%;
         border-left: none;
         //background: red;
@@ -129,7 +129,7 @@
                     font-size: 1em;
                     font-weight: 400;
                     margin: 0 auto;
-                    height: 4em;
+                    height: 5em;
                     width: auto;
                     text-align: center;
                     transition: 0.5s;

@@ -1,0 +1,36 @@
+.image-section{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.image-flexbox{
+    position: relative;
+    width: 90%;
+    height: 500px;
+    //background: red;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    //justify-content: space-between;
+    //flex-direction: row;
+}
+.image-box{
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    //background-attachment: fixed;
+}
+.yoga-image1{
+    background-image: url(../images/yoga-image1.jpg);
+    width: 65%;
+}
+.yoga-image2{
+    background-image: url(../images/yoga-image2.jpg);
+    width: 35%;
+
+}
