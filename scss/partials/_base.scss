@@ -1,3 +1,12 @@
-body{
-    background: red;
+html, body{
+    font-size: 16px;
+    z-index: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    color: #080808;
+    background: #f3f3f3;
+    width: 100%;
+    height: auto;
 }
