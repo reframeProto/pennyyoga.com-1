@@ -10,4 +10,51 @@ html, body{
     width: 100%;
     height: auto;
 }
-
+.purple-font{
+    color: #9241A8;
+}
+.blue-font{
+    color: #4F5EC1;
+}
+.font-size{
+    font-size: 0.7em;
+    font-weight: 200;
+}
+.facebook-icon,
+.facebook-icon::before,
+.facebook-icon::after{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    background-image: url(../images/facebook2.png);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 48px 48px;
+    transition: all ease-out 300ms;
+}
+.facebook-icon:hover,
+.facebook-icon:focus,
+.facebook-icon:active{
+    background-image: url(../images/facebook1.png);
+    transition: all ease-out 500ms;
+}
+.twitter-icon,
+.twitter-icon::before,
+.twitter-icon::after{
+    position: relative;
+    width: 48px;
+    height: 48px;
+    background-image: url(../images/twitter2.png);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 48px 48px;
+    transition: all ease-out 300ms;
+}
+.twitter-icon:hover,
+.twitter-icon:focus,
+.twitter-icon:active{
+    background-image: url(../images/twitter1.png);
+    transition: all ease-out 500ms;
+}

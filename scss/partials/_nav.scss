@@ -3,12 +3,20 @@
     margin: 0;
     padding: 0;
     width: 100%;
-    background: rgba(243, 243, 243, 1);
+    background: #f3f3f3;
     height: 5em;
     z-index: 100;
     position: fixed;
-    border-bottom: 1px solid #080808;
-    font-family: 'Nunito', sans-serif;
+    border-bottom: 2px solid #080808;
+    font-family: 'Poppins', sans-serif;
+    h1{
+        font-size: 2.2em;
+        font-weight: 300;
+        display: block;
+        position: absolute;
+        padding: 0;
+        margin: 0.45em 0 0 0.5em;
+    }
 }
 .header-container::after{
     content: '';
@@ -21,24 +29,25 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 6em;
+    width: 6.5em;
     height: auto;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
-    //right: 6em;
-    //top: 0.45em;
+    right: 6em;
+    top: 1em;
 }
+
 .site-nav{
     margin: 0;
     padding: 0;
     position: absolute;
     line-height: 1.5em;
     right: 0%;
-    top: 4em;
+    top: 5em;
     height: 0px;
     overflow: hidden;
-    border-bottom: 1px solid #080808;
-    border-left: 1px solid #080808;
+    border-bottom: 2px solid #080808;
+    border-left: 2px solid #080808;
     ul{
         margin: 0;
         padding: 0;
@@ -66,8 +75,8 @@
                 //text-transform: uppercase;
                 text-decoration: none;
                 font-family:'Poppins', sans-serif;
-                font-weight: 500; 
-                font-size: 1em;
+                font-weight: 300; 
+                font-size: 1.2em;
                 color: #080808;
                 padding: 0;
                 margin: 0 auto;
@@ -75,32 +84,81 @@
                 //background: palegoldenrod; 
                 align-items: center;
                 justify-content: space-around;
+                height: 100%;
+                width: 100%;
+                
             }
         }
         .activelink{
             //background: rgba(0, 112, 0, 0.8);
             a{
-                color: #080808;
+                //color: #080808;
                 font-weight: 800;
             }
         }
     }
 }
-
+.site nav a,
+.site-nav a:visited,
+.site-nav a:active{
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+    position:relative;
+    transition:0.5s color ease;
+    text-decoration:none;
+    color: #080808;
+}
+.site-nav a:hover{
+    color: #9241A8;
+}
+.site-nav a.before:before,
+.site-nav a.after:after{
+    content: "";
+    transition:0.5s all ease;
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+    position:absolute;
+}
+.site-nav a.before:before{
+    top: 0.7em;
+}
+.site-nav a.after:after{
+    bottom: 0.7em;
+}
+.site-nav a.before:before,
+.site-nav a.after:after{
+    height: 3px;
+    width: 0;
+    background: #4F5EC1;
+}
+.site-nav a:before{
+    left: 0;
+}
+.site-nav a:after{
+    right: 0;
+}
+.site-nav a.before:hover:before,
+.site-nav a.after:hover:after{
+    width: 100%;
+}
 .site-nav--open{
     height: auto;
     z-index: 1;
 }
 
-@media (min-width: 900px){
+
+@media (min-width: 1000px){
     .header-container{
         height: 5em;
         padding: 0;
-        margin: 0 auto;
+        margin: 0;
+    }
+    .social-media-header{
+        right: 1em;
     }
     .site-nav{
         padding: 0;
-        margin: 0 auto;
+        margin: 0 0 0 4em;
         position: relative;
         top: 0;
         background: none;
@@ -118,19 +176,20 @@
             justify-content: center;
             li{
                 padding: 0;
-                margin:  0 2em;
+                margin:  0;
                 width: auto;
                 transition: 0;
                 height: auto;
                 border-top: none;
                 //border-radius: 3px;
+                
                 a{
                     padding: 0 0.5em;
                     font-size: 1em;
                     font-weight: 400;
                     margin: 0 auto;
                     height: 5em;
-                    width: auto;
+                    width: 5em;
                     text-align: center;
                     transition: 0.5s;
                     //border-radius: 3px;
@@ -151,8 +210,8 @@
     width: 55px;
     height: 30px;
     position: absolute;
-    right: 3%;
-    top: 0.75em;
+    right: 2%;
+    top: 1.4em;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);

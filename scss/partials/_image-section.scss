@@ -8,6 +8,7 @@
 .image-flexbox{
     position: relative;
     width: 90%;
+    max-width: 1200px;
     height: 500px;
     //background: red;
     padding: 0;
@@ -18,7 +19,7 @@
 }
 .image-box{
     height: auto;
-    margin: 0;
+    margin: 0 0.25em;
     padding: 0;
     background-repeat: no-repeat;
     background-position: center;
