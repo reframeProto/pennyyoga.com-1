@@ -10,7 +10,7 @@
 }
 
 .about-h1{
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 500;
     position: relative;
     margin: 0 auto;
@@ -18,14 +18,51 @@
     text-align: center;
     color: #4F5EC1;
 }
+.yoga-flower{
+    position: relative;
+    display: block;
+    height: 188px;
+    width: 300px;
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(../images/yoga-flower.png);
+    background-size: 300px 188px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .about-h2{
-    font-size: 2em;
+    font-size: 1.5em;
+    width: 100%;
+    position: relative;
+    margin: 2em auto;
+    padding: 0.5em 0 1em 0;
+    text-align: center;
+    font-weight: 300;
+    max-width: 1000px;
+    //background: rgba(146, 65, 168, 0.1);
+    border-top: 5px solid #4F5EC1;
+    border-bottom: 5px solid #4F5EC1;
+    color: #5a5a5a;
+}
+.about-h3{
+    font-size: 1.75em;
     position: relative;
     margin: 1em auto;
-    padding: 0 5%;
     text-align: center;
+    font-weight: 500;
+    color: #5a5a5a;
+}
+.bio{
+    font-size: 1.1em;
     font-weight: 200;
+    line-height: 1.5em;
+    margin: 0 auto;
+    width: 80%;
+    padding: 0;
     max-width: 1200px;
+    text-align: center;
+    //background: #e9e9e9;
+    color: #4b4b4b;
 }
 .about-section1,
 .about-section2{
@@ -66,7 +103,7 @@
     }
     p{
         margin: 1em;
-        font-size: 1.2em;
+        font-size: 1.1em;
         line-height: 1.5em;
         color: #4b4b4b;
     }

@@ -1,0 +1,55 @@
+.image-section1{
+    width: 100%;
+    height: 600px;
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/yoga-bg-min.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+}
+.text-box{
+    width: auto;
+    height: 100%;
+    padding: 2em 0;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 5em;
+        font-weight: 400;
+        padding: 0;
+        margin: 0 auto;
+        color: #9241A8;
+    }
+    h2{
+        font-size: 7em;
+        font-weight: 700;
+        padding: 0;
+        margin: 0 auto;
+        color: #4F5EC1;
+    }
+    p{
+        font-size: 3em;
+        font-weight: 200;
+        padding: 0;
+        margin: 0 auto;
+        color: #f3f3f3;
+        text-shadow: 2px 4px 0px #4F5EC1;
+    }
+    h3{
+        font-size: 8em;
+        font-weight: 300;
+        padding: 0;
+        margin: 0 auto;
+        color: #9241A8;
+    }
+}

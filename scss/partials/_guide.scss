@@ -1,0 +1,70 @@
+.guide{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 2em 0;
+    margin: 0;
+    background: #f3f3f3;
+    border-top: 2px solid #4b4b4b;
+    color: #4b4b4b;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 300;
+    h1{
+        text-align: center;
+        padding: 0;
+        margin: 1em auto 2em auto;
+        font-size: 2em;
+        font-weight: 500;
+    }
+    h2{
+        text-align: center;
+        padding: 0;
+        margin: 3em auto;
+        font-size: 1.8em;
+        font-weight: 200;
+        max-width: 1000px;
+        width: 90%;
+    }
+    h3{
+        text-align: center;
+        padding: 0;
+        margin: 2em auto;
+        font-size: 1.8em;
+        font-weight: 200;
+        max-width: 1000px;
+        width: 90%;
+    }
+}
+
+.guide-flexbox{
+    padding: 0;
+    margin: 0.5em auto;
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-box{
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 0;
+    margin-right: 0.25em;
+    padding: 1em;
+    width: 20%;
+    background: rgba(79, 94, 193, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content-box{
+    font-size: 1.1em;
+    font-weight: 200;
+    margin: 0 auto;
+    padding: 1em;
+    width: 80%;
+    line-height: 1.6em;
+    background: rgba(146, 65, 168, 0.1);
+}
