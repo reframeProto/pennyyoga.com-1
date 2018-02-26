@@ -39,7 +39,7 @@ $(document).ready(function(){
   // MODAL
 
   // Modal Variables
-  var modal1 = document.getElementById('hatha-modal');
+  /* var modal1 = document.getElementById('hatha-modal');
   var modal2 = document.getElementById('mummys-modal');
   var modal3 = document.getElementById('therapy-modal');
   var modal4 = document.getElementById('younger-modal');
@@ -114,5 +114,5 @@ $(document).ready(function(){
     } else if (event.target == modal6){
       modal6.style.display = "none";
     } 
-  };
+  }; */
 });

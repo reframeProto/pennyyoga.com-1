@@ -85,8 +85,8 @@
     100%{opacity:1}
   }
   .down-arrow{
-      text-align: center;
-      margin: 8% 0;
+      //text-align: center;
+      margin: 0;
       width: 80px;
       height: 80px;
       background-image: url(../images/down-arrow.png);
@@ -95,7 +95,7 @@
       background-size: 80px 80px;
       position: absolute;
       right: 20em;
-      bottom: -5em;
+      bottom: 1em;
   }
   .bounce {
     -moz-animation: bounce 2s infinite;
@@ -111,5 +111,37 @@
     }
     60% {
       transform: translateY(-15px);
+    }
+  }
+
+  // MEDIA QUERIES  
+
+  @media (max-width: 768px){
+    .showcase-outer{
+      height: 100vh;
+    }
+    .choose-h1{
+      font-size: 3em;
+      right: 3em;
+      top: 1.2em;
+    }
+    .yoga-h1{
+      font-size: 6em;
+      right: 1.45em;
+      top: 0.8em;
+    }
+    .with-h1{
+      font-size: 3em;
+      right: 3.1em;
+      top: 5em;
+    }
+    .penny-h1{
+      font-size: 6em;
+      right: 1.57em;
+      top: 2.6em;
+    }
+    .down-arrow{
+      right: 15em;
+      top: 30em;
     }
   }

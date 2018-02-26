@@ -15,6 +15,7 @@
         margin: 1em auto 2em auto;
         font-size: 2em;
         font-weight: 500;
+        color: #4f5ec1;
     }
     h2{
         text-align: center;
@@ -48,23 +49,54 @@
 }
 .header-box{
     font-size: 1.5em;
-    font-weight: 400;
-    margin: 0;
+    font-weight: 500;
+    margin: 0 auto;
     margin-right: 0.25em;
     padding: 1em;
     width: 20%;
-    background: rgba(79, 94, 193, 0.1);
+    background: rgba(79, 94, 193, 0.4);
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    //border: 2px solid rgba(79, 94, 193, 0.1);
 }
 .content-box{
     font-size: 1.1em;
-    font-weight: 200;
+    font-weight: 300;
     margin: 0 auto;
     padding: 1em;
     width: 80%;
     line-height: 1.6em;
-    background: rgba(146, 65, 168, 0.1);
+    background: rgba(146, 65, 168, 0.2);
+    //border: 2px solid rgba(146, 65, 168, 0.1);
+}
+
+// MEDIA QUERIES
+
+@media (max-width: 900px){
+    .guide{
+        h2,
+        h3{
+            font-size: 1.4em;
+        }
+    }
+    .guide-flexbox{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-box{
+        width: 100%;
+        line-height: 1em;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .content-box{
+        width: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 1em auto;
+    }
 }
