@@ -11,6 +11,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="scripts/scripts.js" async></script>
+    <script type="text/javascript" src="scripts/modal.js" async></script>
   </head>
   <body>
     <!-- HEADER/NAV -->
@@ -54,10 +55,10 @@
       <h1 class="about-h1">- About -</h1>
       <h2 class="about-h2"><span class="quote-marks">"</span>Teaching yoga that is mindful and beneficial for body, mind and spirit.<span class="quote-marks">"</span></h2>
       <div class="yoga-flower"></div>
-      <h3 class="about-h3">Who am i?</h3>
-      <p class="bio">Penny started yoga as a teenager going to classes with her mum before enjoying yoga at the <a href="http://www.activebirthcentre.com/" target="_blank">Active Birthing Centre run by Janet Balaskas</a> in London. After a period of home practice and  attending local classes, she felt so passionate about yoga that she decided to do the 1 year Foundation Diploma with BWY*.<br><br>She then went on to study for 3 years for the Teacher Diploma again with BWY*. 
-        Penny is also trained as an advanced tutor for Restorative Yoga having trained to advance level with the world’s foremost teacher <a href="http://www.judithhansonlasater.com/" target="_blank">Judith Hanson Lasater</a>, Relax and Renew Yoga.<br><br>
-        She completed the Meditation 1 year BWY module with <a href="http://www.meditationtomindfulness.co.uk/yoga/" target="_blank">Kay Baxter</a> and has undergone deeper meditation and energy work with Kay in Bristol.<br><br>
+      <h3 class="about-h3">Yoga with Penny</h3>
+      <p class="bio">Penny started yoga as a teenager going to classes with her mum before enjoying yoga at the Active Birthing Centre run by Janet Balaskas</a> in London. After a period of home practice and  attending local classes, she felt so passionate about yoga that she decided to do the 1 year Foundation Diploma with BWY*.<br><br>She then went on to study for 3 years for the Teacher Diploma again with BWY*. 
+        Penny is also trained as an advanced tutor for Restorative Yoga having trained to advance level with the world’s foremost teacher Judith Hanson Lasater</a>, Relax and Renew Yoga.<br><br>
+        She completed the Meditation 1 year BWY module with and has undergone deeper meditation and energy work with Kay in Bristol.<br><br>
          Penny is training in Yoga Therapy where clients are assessed and helped holistically easing body, mind and soul towards better balance.<br><br>
         As well as her adult work, Penny has an Advanced B. Tech in teaching Yoga to Children and works in primary, secondary and additional needs settings with many years’ experience. 
          She and is experienced in making yoga accessible and empowering. She runs personalised Yoga classes, meditation and relaxation sessions via 1-1 sessions, local group classes and yoga workshops. 
@@ -76,7 +77,7 @@
         <div class="about-flexbox">
           <div class="about-box">
             <h1>Why do yoga?</h1>
-            <p>Many people do yoga initially for the physical aspect of wanting to get stronger, help gain flexibility or to learn to lessen stress etc . After a few weeks of practice they start to notice the physical asana can be enhanced with breath techniques. The combination of body and breath then allows the mind to zone in and calm down so that the session can be experienced in a mindful or meditative way.
+            <p>Many people do yoga initially for the physical aspect of wanting to get stronger, help gain flexibility or to learn to lessen stress etc. After a few weeks of practice they start to notice the physical asana can be enhanced with breath techniques. The combination of body and breath then allows the mind to zone in and calm down so that the session can be experienced in a mindful or meditative way.
               Allow 10 minutes of relaxation as well and suddenly people can start to discover a new way of being...you have to give it 4- 6 weeks to really experience what yoga can do.</p>
           </div>
           <div class="about-box profile-image"></div>
@@ -91,126 +92,125 @@
       <!-- CLASSES FLEXBOX -->
       <div class="classes-flexbox">
 
-        <!-- HATHA YOGA -->
-        <figure class="classes-box purple hatha-yoga">
-          <h1 class="classes-title">Hatha Yoga</h1>
+        <!-- HATHA YOGA FIGURE-->
+        <figure class="classes-box hatha-bg">
+          <h1 class="classes-title purple">Hatha Yoga</h1>
           <figcaption class="box-desc blue-bg">
-            <div class="view-more-button" id="hathaYoga">View More</div>
+            <button class="view-more-button" id="hathaYoga">View More</button>
           </figcaption>
+        <!-- HATHA MODAL -->
+          <div class="modal">
+            <div class="modal-close"></div>
+            <h1>- Hatha Yoga -</h1>
+            <p>Penny can personalise Yoga classes, meditation and relaxation techniques via 1-1 yoga sessions or small groups.<br><br>
+              She also runs weekly friendly and welcoming classes with Drop In rates and discouted block payments. Sessions can help develop stronger core, muscle strength and flexibility.<br><br>
+              All students are included and made to feel welcome and valued as classes are adapted to suit all levels from beginners to advanced. Classes are available at different times and on most days. There is even a Friday Lunchtime class for folk who work from home on that day! There is a classs to suit everyone and clients can come to any to suit you.</p>
+            <div class="testimonial hatha-bg">
+              <h1>What people say. . .</h1>
+              <p><span class="quote-marks">"</span>Penny is an excellent and knowledgeable teacher of Yoga. Having recently found Yoga I feel lucky to
+                  have found such a good teacher who is both compassionate and understanding to my particular
+                  condition. Penny took the time to find out about my condition and always makes me feel included in
+                  the group sessions I attend weekly. She embraces the mind and body approach and always offers
+                  many variations to poses and routines to accommodate the wide range of experience levels in her
+                  classes. I have not only begun to learn about balance, breathing and core strength, but I am
+                  also beginning to find some peaceful time in my busy life during the relaxation element. I cannot
+                  recommend Penny highly enough.<span class="quote-marks">"</span> - M.<br><br><span class="quote-marks">"</span>I am hooked, yoga is brilliant for making me feel more flexible and I am getting a stronger core too!<span class="quote-marks">"</span> - H.</p>
+            </div>
+          </div>
         </figure>
-         <!-- YOGA MUMMYS -->
-        <figure class="classes-box blue yoga-mummys">
-          <h1 class="classes-title">Yoga Mummys</h1>
+        
+         <!-- YOGA MUMMYS FIGURE-->
+        <figure class="classes-box yoga-mummys">
+          <h1 class="classes-title blue">Yoga Mummys</h1>
           <figcaption class="box-desc purple-bg">
             <div class="view-more-button" id="yogaMummys">View More</div>
           </figcaption>
-          <!--<p>Mum's come and do yoga while babys/tots play. You can stop to soothe and feed as you need without feeling stressed. Available Thursdays 1.30 at Kingscliffe Underground centre (below Village Hall)</p>-->
+          <!-- MUMMYS MODAL -->
+          <div class="modal">
+            <div class="modal-close"></div>
+            <h1>- Yoga Mummys -</h1>
+            <p>Mum's* come and do yoga while babies/tots play. You can stop to soothe and feed as you need without feeling stressed. Available at KingsCliffe Underground centre (below Village Hall).<br><br>*New mum’s must have had Post 6 week check and GP permission and this session is not suitable for pregnant mums.</p>
+            <div class="testimonial mummys-bg">
+              <h1>What people say. . .</h1>
+              <p><span class="quote-marks">"</span>Yoga breathing and relaxation helps me cope with my stress. I feel much calmer and sleep better
+                after a session with Penny.<span class="quote-marks">"</span> - N.</p>
+            </div>
+          </div>
         </figure>
-        <!-- YOGA THERAPY -->
-        <figure  class="classes-box purple yoga-therapy">
-          <h1 class="classes-title">Yoga Therapy</h1>
+
+        <!-- YOGA THERAPY FIGURE-->
+        <figure  class="classes-box yoga-therapy">
+          <h1 class="classes-title purple">Yoga Therapy</h1>
           <figcaption class="box-desc blue-bg">
             <div class="view-more-button" id="yogaTherapy">View More</div>
           </figcaption>
-          <!--<p>Penny's Hatha Yoga sessions help you develop a strong core, stronger muscles and more flexibility. My classes are perfect if you like to be mindful, peaceful and enjoy practicing in these quiet places (sometimes to great yoga music). Do you want to improve general fitness and wellbeing? Come along to get a chance to lesson stress through breathing and relaxation. All abilities made to feel welcome and valued. </p>-->
-        </figure>
-        <!-- YOUNGER PEOPLE -->
-        <figure class="classes-box blue younger-people">
-          <h1 class="classes-title">Younger People</h1>
+          <!-- THERAPY MODAL -->
+          <div class="modal">
+            <div class="modal-close"></div>
+            <h1>- Yoga Therapy -</h1>
+            <p>Be welcomed to individually designed sessions using yoga poses, breathing, and relaxation as a theraputic way of treating the whole body, mind and emotions as well as looking at specific issues.<br><br>Sessions available in clients home, work or in my Kingscliffe yoga studio (PE8 Area).<br><br>Price per session is £35 per hour, 4 session programme for £120</p>
+            <div class="testimonial therapy-bg">
+              <h1>What people say. . .</h1>
+              <p><span class="quote-marks">"</span>Ten days after the yoga session with you, I’m still doing the stretches. The arm circles are really hitting the button and I’ve subsequently noticed how often I hold my left shoulder and arm slightly hunched over my heart. Your whole manner of being warm, respectful and gentle left me feeling nourished and energised. Also, your frequent affirming of how well I was doing contributed, I’m sure, to my willingness to continue the stretches as a daily routine. Thank you again and I think your future clients will be fortunate to have you.<span class="quote-marks">"</span> - V.<br><br><span class="quote-marks">"</span>Thank you for helping me see that stress was stopping me from getting better, the worksheet you
+                gave me allows me to do my own practice when I can and it really helps...<span class="quote-marks">"</span> - G.</p>
+            </div>
+          </figure>
+         
+        <!-- YOUNGER PEOPLE  FIGURE-->
+        <figure class="classes-box younger-bg">
+          <h1 class="classes-title blue">Younger People</h1>
           <figcaption class="box-desc purple-bg">
             <div class="view-more-button" id="youngerPeople">View More</div>
           </figcaption>
-          <!--<p>Qualified and experienced to teach 1-2-1 yoga sessions, small groups and in Schools. Fully accredited to teach yoga for children and teens. Lots of experience of working with students with learning, physical and mental health issues.</p>-->
+          <!-- YOUNGER PEOPLE MODAL -->
+          <div class="modal">
+            <div class="modal-close"></div>
+            <h1>- Younger People -</h1>
+            <p>Qualified and experienced to teach 1 -1 yoga sessions, small groups and whole classes in schools (and whole schools !).<br><br>With yoga every child has the potential to do really well which can be a huge boost to self- confidence and feelings of self- worth. Children are increasingly finding it hard to focus and to experience silence and quietness but over a programme of yoga children learn how to relax , deeply rest and breathe well. Accompanying carers, parents, teachers and assistants also feel the benefit.<br><br>10 or 6 week weekly programmes are popular and sessions can be referenced to schools values, PSHE or RE curriculum . Teaching children to appreciate yoga as a form of exercise with the “warrior training programme” and to develop mindfulness, better breathing, focus and most popular of all teaching children how to relax and to be at rest!<br><br>Teenagers also learn to let go of stress and tension through yoga and mindfulness yoga, helping them deal with the important transitions in life.<br><br>Fully accredited to teach yoga for children and teens. Full DBS on line and insured. Highly experienced in working with students with learning, physical and mental health issues.</p>
+            <div class="testimonial younger-bg">
+              <h1>What people say. . .</h1>
+              <p><span class="quote-marks">"</span>The classes are friendly and you never feel you have to prove anything, no one’s going to judge you.<span class="quote-marks">"</span> - D.</p>
+            </div>
+          </div>
         </figure>
-        <!-- RESTORATIVE YOGA -->
-        <figure class="classes-box purple restorative-yoga">
-          <h1 class="classes-title">Restorative Yoga</h1>
+
+        <!-- RESTORATIVE YOGA FIGURE-->
+        <figure class="classes-box restorative-yoga">
+          <h1 class="classes-title purple">Restorative Yoga</h1>
           <figcaption class="box-desc blue-bg">
             <div class="view-more-button" id="restorativeYoga">View More</div>
           </figcaption>
-          <!--<p>Penny is also a Relax and Renew (Restorative Yoga) yoga teacher helping people to benefit from yoga postures with bolsters and blocks to relax into. Delivered in a very gentle but beneficial form. Restorative Yoga Classes available in Peterborough on Friday morning. Book now to reserve your place or contact me for information about 1-1 or small group yoga sessions.</p>-->
+          <!-- RESTORATIVE MODAL -->
+          <div class="modal">
+            <div class="modal-close"></div>
+            <h1>- Restorative Yoga -</h1>
+            <p>Penny trained with Judith Hanson Lasater founder of Relax and Renew, Restorative Yoga. This yoga is usually in an extended session of 2 hours where the teacher helps clients into yoga postures with bolsters and blocks, cushions and blankets to relax into. Delivered in a very gentle but beneficial form with breathing, visualisation, and deep relaxation the time just races by as clients shed layers of fatigue, stress and allow themselves the stillness and space to just BE.<br><br>You can book 1-1 or small group session for you and your friends or book a place on the next Sunday afternoon session allowing you to start the week refreshed.</p>
+            <div class="testimonial restorative-bg">
+              <h1>What people say. . .</h1>
+              <p><span class="quote-marks">"</span>Restorative yoga has really taught me how to relax deeply which helps me deal so much better with my busy stressful way of living. I find myself using the relaxing and breathing when I am in a traffic jam or waiting to pay at the till.<span class="quote-marks">"</span> - P.</p>
+            </div>
+          </div>
         </figure>
-        <!-- SHORT YOGA PROGRAMME -->
-        <figure  class="classes-box blue short-yoga">
-          <h1 class="classes-title">Short Yoga Programme</h1>
+
+        <!-- SHORT YOGA PROGRAMME FIGURE-->
+        <figure  class="classes-box short-bg">
+          <h1 class="classes-title blue">Short Yoga Programme</h1>
           <figcaption class="box-desc purple-bg">
             <div class="view-more-button" id="shortYoga">View More</div>
           </figcaption>
-          <!--<p>Penny is also offering short programmes of Yoga to care for backs and Yoga to lesson the effects of stress. In the summer you can also join regular meditation courses.</p>-->
-        </figure >
+          <!-- SHORT YOGA MODAL -->
+          <div class="modal">
+            <div class="modal-close"></div>
+            <h1>- Short Yoga Programme -</h1>
+            <div class="modal-flexbox"></div>
+            <p>Penny is happy to meet clients for one to one sessions in their own home, work or in her yoga space in KingsCliffe or in small group settings. Currently short programmes of Yoga are being arranged covering issues such as “Strengthening Core for Better Backs”, “Yoga to Lessen the effects of Stress or Anxiety” and “Women’s Health”. Clients would need to get a referral from their health professional.<br><br>Gentle/Chair Yoga is also offered to clients who are recovering from illness, senior or for those wanting a softer slower yoga hour.</p>
+            <div class="testimonial short-bg">
+              <h1>What people say. . .</h1>
+              <p><span class="quote-marks">"</span>Yoga breathing and relaxation really help me cope with my stress. I feel much calmer and sleep like a log  after a session with Penny<span class="quote-marks">"</span> - N.<br><br><span class="quote-marks">"</span>I love the yoga , every week is a little different and the groups are  small enough to make it feel very personal. I really feel I am making progress, I had a "bad" back and the GP recommended I try yoga<span class="quote-marks">"</span> - E.</p>
+            </div>
+          </div>
+        </figure>
       </div>
-
-      <!-- Hatha Modal 
-      <div id="hatha-modal" class="modal">
-        <div class="modal-content">
-          <div class="close1"></div>
-          <h1>Hatha Yoga</h1>
-          <p class="modal-p">Penny can personalise Yoga classes, meditation and relaxation techniques via 1-1 yoga sessions or small groups.<br><br>
-              She also runs weekly friendly and welcoming classes with Drop In rates and discouted block payments. Sessions can help develop stronger core, muscle strength and flexibility.<br><br>
-              All students are included and made to feel welcome and valued as classes are adapted to suit all levels from beginners to advanced. Classes are available at different times and on most days. There is even a Friday Lunchtime class for folk who work from home on that day! There is a classs to suit everyone and clients can come to any to suit you.
-          </p>
-        </div>
-      </div>
-
-       
-      <div id="mummys-modal" class="modal">
-        <div class="modal-content">
-          <div class="close2"></div>
-          <h1>Yoga Mummys</h1>
-          <p class="modal-p">Penny can personalise Yoga classes, meditation and relaxation techniques via 1-1 yoga sessions or small groups.<br><br>
-              She also runs weekly friendly and welcoming classes with Drop In rates and discouted block payments. Sessions can help develop stronger core, muscle strength and flexibility.<br><br>
-              All students are included and made to feel welcome and valued as classes are adapted to suit all levels from beginners to advanced. Classes are available at different times and on most days. There is even a Friday Lunchtime class for folk who work from home on that day! There is a classs to suit everyone and clients can come to any to suit you.
-          </p>
-        </div>
-      </div>
-
-        
-      <div id="therapy-modal" class="modal">
-        <div class="modal-content">
-          <div class="close3"></div>
-          <h1>Yoga Therapy</h1>
-          <p class="modal-p">Penny can personalise Yoga classes, meditation and relaxation techniques via 1-1 yoga sessions or small groups.<br><br>
-              She also runs weekly friendly and welcoming classes with Drop In rates and discouted block payments. Sessions can help develop stronger core, muscle strength and flexibility.<br><br>
-              All students are included and made to feel welcome and valued as classes are adapted to suit all levels from beginners to advanced. Classes are available at different times and on most days. There is even a Friday Lunchtime class for folk who work from home on that day! There is a classs to suit everyone and clients can come to any to suit you.
-          </p>
-        </div>
-      </div>
-
-        
-      <div id="younger-modal" class="modal">
-        <div class="modal-content">
-          <div class="close4"></div>
-          <h1>Younger People</h1>
-          <p class="modal-p">Penny can personalise Yoga classes, meditation and relaxation techniques via 1-1 yoga sessions or small groups.<br><br>
-              She also runs weekly friendly and welcoming classes with Drop In rates and discouted block payments. Sessions can help develop stronger core, muscle strength and flexibility.<br><br>
-              All students are included and made to feel welcome and valued as classes are adapted to suit all levels from beginners to advanced. Classes are available at different times and on most days. There is even a Friday Lunchtime class for folk who work from home on that day! There is a classs to suit everyone and clients can come to any to suit you.
-          </p>
-        </div>
-      </div>
-
-        
-      <div id="restorative-modal" class="modal">
-        <div class="modal-content">
-          <div class="close5"></div>
-          <h1>Restorative Yoga</h1>
-          <p class="modal-p">Penny can personalise Yoga classes, meditation and relaxation techniques via 1-1 yoga sessions or small groups.<br><br>
-              She also runs weekly friendly and welcoming classes with Drop In rates and discouted block payments. Sessions can help develop stronger core, muscle strength and flexibility.<br><br>
-              All students are included and made to feel welcome and valued as classes are adapted to suit all levels from beginners to advanced. Classes are available at different times and on most days. There is even a Friday Lunchtime class for folk who work from home on that day! There is a classs to suit everyone and clients can come to any to suit you.
-          </p>
-        </div>
-      </div>
-        
-      <div id="short-modal" class="modal">
-        <div class="modal-content">
-          <div class="close6"></div>
-          <h1>Short Yoga Programme</h1>
-          <p class="modal-p">Penny can personalise Yoga classes, meditation and relaxation techniques via 1-1 yoga sessions or small groups.<br><br>
-              She also runs weekly friendly and welcoming classes with Drop In rates and discouted block payments. Sessions can help develop stronger core, muscle strength and flexibility.<br><br>
-              All students are included and made to feel welcome and valued as classes are adapted to suit all levels from beginners to advanced. Classes are available at different times and on most days. There is even a Friday Lunchtime class for folk who work from home on that day! There is a classs to suit everyone and clients can come to any to suit you.
-          </p>
-        </div>
-      </div> -->
-      
     </section>
 
     <!-- IMAGE-SECTION1 -->
@@ -301,7 +301,7 @@
           <p>Preparation for Class</p>
         </div>
         <div class="content-box">
-          <p>Before a class have a snack and hydrate an hour or so before but avoid eating meals.<br><br>You will be barefoot or you can wear toe sox/ yoga socks with non- slip treads.<br><br>Do wear comfortable stretchy clothes and bring a warm layer to put on post class.<br><br>Get a non slip mat off the internet for example Yogamad.co.uk or from stores like TK.Maxx, you may also want to bring a blanket for relaxation ( I have spares to get you buy for week 1).</p>
+          <p>Before a class have a snack and hydrate an hour or so before but avoid eating meals.<br><br>You will be barefoot or you can wear toe sox/ yoga socks with non- slip treads.<br><br>Do wear comfortable stretchy clothes and bring a warm layer to put on post class.<br><br>Get a non slip mat off the internet for example Yogamad.co.uk or from stores like TK.Maxx, you may also want to bring a blanket for relaxation ( I have spares to get you by for week 1).</p>
         </div>
       </div>
       <div class="guide-flexbox">
