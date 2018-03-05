@@ -30,13 +30,13 @@ html, body{
 .facebook-icon::before,
 .facebook-icon::after{
     position: relative;
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
     background-image: url(../images/facebook2.png);
     margin: 0;
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: 48px 48px;
+    background-size: 40px 40px;
     transition: all ease-out 300ms;
 }
 .facebook-icon:hover,
@@ -49,13 +49,13 @@ html, body{
 .twitter-icon::before,
 .twitter-icon::after{
     position: relative;
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
     background-image: url(../images/twitter2.png);
     margin: 0;
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: 48px 48px;
+    background-size: 40px 40px;
     transition: all ease-out 300ms;
 }
 .twitter-icon:hover,

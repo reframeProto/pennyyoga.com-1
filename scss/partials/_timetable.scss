@@ -84,3 +84,24 @@
     font-weight: 500;
     color: #9241A8;
 }
+
+@media (max-width: 620px){
+    .timetable{
+        h1{
+            font-size: 1.5em;
+        }
+    }
+}
+@media (max-width: 480px){
+    .timetable-box{
+        width: 320px;
+        height: 320px;
+        h1{
+            font-size: 1.2em;
+        }
+        .time,
+        .place{
+            font-size: 1em;
+        }
+    }
+}

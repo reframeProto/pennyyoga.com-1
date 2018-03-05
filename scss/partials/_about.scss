@@ -16,8 +16,8 @@
     margin: 0 auto;
     padding: 1em 0 0 0;
     text-align: center;
-    //color: #4b4b4b;
-    color: rgba(146, 65, 168, 1);
+    color: #4b4b4b;
+    //color: rgba(146, 65, 168, 1);
 }
 .yoga-flower{
     position: relative;
@@ -43,15 +43,16 @@
     //background: rgba(146, 65, 168, 0.1);
     border-top: 5px solid #4F5EC1;
     border-bottom: 5px solid #4F5EC1;
-    color: #5a5a5a;
+    color: rgba(146, 65, 168, 1);
 }
 .about-h3{
     font-size: 1.75em;
     position: relative;
     margin: 1em auto;
     text-align: center;
-    font-weight: 500;
-    color: #5a5a5a;
+    font-weight: 300;
+    //color: #5a5a5a;
+    color: rgba(146, 65, 168, 1);
 }
 .bio{
     font-size: 1.1em;
@@ -99,7 +100,7 @@
     h1{
         margin: 0 0 0.5em 0;
         text-align: center;
-        font-weight: 400;
+        font-weight: 300;
         font-size: 1.6em;
         //color: #5a5a5a;
         color: rgba(146, 65, 168, 1);
@@ -183,3 +184,38 @@
     }
 }
 
+@media (max-width: 620px){
+    .about-h1{
+        font-size: 1.5em;
+    }
+    .about-h2{
+        font-size: 1.1em;
+    }
+    .yoga-flower{
+        background-size: 180px 113px;
+        width: 180px;
+        height: 113px;
+    }
+    .about-h3{
+        font-size: 1.5em;
+    }
+    .bio{
+        text-align: initial;
+        width: 90%;
+    }
+    .about-section1,
+    .about-section2{
+        width: 100%;
+    }
+    .profile-image,
+    .yoga-mats{
+        width: 100%;
+    }
+    .about-box{
+        p{
+            text-align: initial;
+            padding: 1em 0;
+            width: 95%;
+        }
+    }
+}

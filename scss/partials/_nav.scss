@@ -10,12 +10,12 @@
     border-bottom: 2px solid #080808;
     font-family: 'Poppins', sans-serif;
     h1{
-        font-size: 2.2em;
+        font-size: 1.8em;
         font-weight: 300;
         display: block;
         position: absolute;
         padding: 0;
-        margin: 0.45em 0 0 0.5em;
+        margin: 0.8em 0 0 0.5em;
     }
 }
 .header-container::after{
@@ -29,12 +29,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 6.5em;
+    width: 5.5em;
     height: auto;
     margin: 0 auto;
     padding: 0;
     right: 6em;
-    top: 1em;
+    top: 1.2em;
 }
 
 .site-nav{
@@ -147,7 +147,7 @@
 }
 
 
-@media (min-width: 1100px){
+@media (min-width: 1000px){
     .header-container{
         height: 5em;
         padding: 0;
@@ -184,8 +184,8 @@
                 //border-radius: 3px;
                 
                 a{
-                    padding: 0 0.5em;
-                    font-size: 1em;
+                    padding: 0 0.7em;
+                    font-size: 0.9em;
                     font-weight: 400;
                     margin: 0 auto;
                     height: 5em;
@@ -202,8 +202,14 @@
     }
 }
 
-
-
+@media (max-width: 620px){
+    .header-container{
+        h1{
+            font-size: 1.4em;
+            margin: 1.2em 0 0 0.5em;
+        }
+    }
+}
 
 /****** Nav Burger Icon ******/
 #nav-icon{

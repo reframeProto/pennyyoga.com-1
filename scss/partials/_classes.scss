@@ -4,7 +4,6 @@
     position: relative;
     padding: 0;
     margin: 0;
-    //background: #a8a8a8;
     font-family: 'Poppins', sans-serif;
 }
 .classes-h1{
@@ -28,7 +27,6 @@
     align-items: stretch;
     flex-wrap: wrap;
     flex-direction: row;
-    //background: #e9e9e9;
 }
 .classes-box{
     position: relative;
@@ -48,15 +46,12 @@
         font-weight: 300;
         text-align: center;
         color: #f3f3f3;
-        //color: #181818;
-        //background: #4F5EC1;
         padding: 0.5em 0;
         margin: 0;
         display: block;
         position: relative;
         width: 100%;
         z-index: 3;
-        
     }
     p{
         font-size: 1em;
@@ -75,7 +70,6 @@
     font-weight: 300;
     position: absolute;
     bottom: 0;
-    //bottom: 6em;
     color: #f3f3f3;
     background: rgba(79, 94, 193, 0.7);
     left: 0;
@@ -124,17 +118,17 @@
 // MODALS
 .modal{
     position: fixed;
-    z-index: 10;
-    top: 6em;
-    bottom: 2em;
-    left: 2em;
-    right: 2em;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background: #f3f3f3;
-    box-shadow: 0 0 0 3em black;
+    //box-shadow: 0 0 0 3em black;
     overflow-y: scroll;
     overflow-x: hidden;
     display: none;
-    max-width: 1200px;
+    //max-width: 1200px;
     margin: 0 auto;
     &.is-open{
         display: block;
@@ -166,12 +160,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    //background-attachment: fixed;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    //border-top: 5px solid #4F5EC1;
     h1{
         font-size: 2.5em;
         text-align: center;
@@ -180,7 +172,6 @@
         color: #f3f3f3;
         text-shadow: 2px 0px 5px #181818;
         font-weight: 100;
-        
     }
     p{
         color: #f3f3f3;
@@ -270,11 +261,15 @@
         font-size: 1em;
     }
 }
+@media (max-width: 620px){
+    .classes-h1{
+        font-size: 1.5em;
+    }
 
-@media (max-width: 540px){
     .classes-box{
-        width: 90%;
-        margin: 0.5em 0;
+        width: 100%;
+        margin: 0;
+        height: 21em;
         .classes-title{
             font-size: 1.5em;
         }
